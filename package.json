@@ -19,6 +19,7 @@
   "author": "MightyHelper",
   "license": "ISC",
   "dependencies": {
-    "node": "^10.9.0"
+    "node": "^10.9.0",
+    "socket.io": "^2.1.1"
   }
 }

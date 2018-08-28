@@ -1,7 +1,7 @@
 var socket;
 function setup() {
 	createCanvas(windowWidth, windowHeight);
-	socket = io.connect('http://localhost:3001');
+	socket = io.connect('http://localhost:3000');
 	socket.on('info',newMessage);
 }
 function newMessage(data){

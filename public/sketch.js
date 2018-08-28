@@ -1,6 +1,6 @@
 var socket;
 var players={}
-var useWebGL=false
+var useWebGL=true
 function createVec(xpos=0,ypos=0){
 	var x=new p5.Vector();
 	x.set(xpos,ypos);

@@ -1,7 +1,7 @@
 var express = require('express'  ); // Simple nodejs utilities
 var socket  = require('socket.io'); // socket library
 var app     = express();            // our app
-var server  = app.listen(3001);     // the server is now listening on port 3001
+var server  = app.listen(25565);     // the server is now listening on port 3001
 var io      = socket(server);       // create the io object based on our server
 app.use(express.static('public'))   // will use static file paths, only look at whats there once
 io.sockets.on('connection', newConnection); // Register callback for new connection
